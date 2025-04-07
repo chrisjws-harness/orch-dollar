@@ -11,7 +11,7 @@ class StringUtilsTest {
     void testIsEmpty() {
         assertTrue(utils.isEmpty(""));
         assertTrue(utils.isEmpty(null));
-        assertFalse(utils.isEmpty("Hello"));
+        assertFalse(utils.isEmpty("Hello2"));
     }
 
     @Test
