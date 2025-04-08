@@ -10,6 +10,7 @@ class StringUtilsTest {
     @Test
     void testIsEmpty() {
         assertTrue(utils.isEmpty(""));
+        assertTrue(utils.isEmpty(""));
         assertTrue(utils.isEmpty(null));
         assertFalse(utils.isEmpty("Hello"));
     }
